@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Hind } from "next/font/google";
-import Footer from "./components/Footer";
+
 import "./globals.css";
 
 const hind = Hind({ weight: "400", subsets: ["latin"], display: "swap" });
@@ -21,7 +21,6 @@ export default function RootLayout({
         className={`hind.className bg-primary text-secondary w-full h-screen   bg-hero-pattern bg-cover bg-opacity-10 bg-no-repeat bg-center `}
       >
         {children}
-        <Footer />
       </body>
     </html>
   );

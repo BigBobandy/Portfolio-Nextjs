@@ -32,7 +32,7 @@ const Links = () => {
       </a>
 
       <a
-        href="mailto:jdykes207@gmail.com"
+        href="mailto:jdykesdev@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         title="Email"
