@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center w-full pt-5 ">
       <Image
-        src="/headshot.jpg"
+        src="/headshot.png"
         width={400}
         height={700}
         alt="headshot picture of me"
