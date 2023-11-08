@@ -5,6 +5,10 @@ const projects = [
       "Full-stack web application designed to emulate the experience of an e-commerce platform.",
     tags: [
       {
+        name: "Full-Stack",
+        color: "golden-text-gradient",
+      },
+      {
         name: "react",
         color: "blue-text-gradient",
       },
@@ -51,8 +55,20 @@ const projects = [
       "Webiste that provides data about countries around the world using information pulled from various public APIs.",
     tags: [
       {
-        name: "Javascript",
+        name: "Full-Stack",
         color: "golden-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "golden-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express with node.js",
+        color: "orange-text-gradient",
       },
       {
         name: "HTML",
@@ -63,7 +79,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
     ],
-    image: "/worldInfoHub.png",
+    image: "/world-info-hub.jpg",
     source_code_link: "https://github.com/BigBobandy/World-Info-Hub",
     live_link: "https://bigbobandy.github.io/World-Info-Hub/",
   },

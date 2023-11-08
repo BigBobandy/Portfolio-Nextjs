@@ -14,9 +14,9 @@ const ProjectCards = () => {
               alt={project.name}
             />
           </figure>
-          <div className="card-body">
-            <h2 className="card-title">{project.name}</h2>
-            <p>{project.description}</p>
+          <div className="card-body p-5">
+            <h2 className="card-title ">{project.name}</h2>
+            <p className="text-orange-100">{project.description}</p>
 
             <div className="card-actions justify-end">
               <a

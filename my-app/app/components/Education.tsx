@@ -15,7 +15,7 @@ const Education = () => {
           />
         </span>
         <h3 className="text-2xl mb-2 font-semibold">
-          Georgia Northwestern Technical College
+          Georgia Northwestern <br /> Technical College
         </h3>
       </li>
       <li className="mb-2">
