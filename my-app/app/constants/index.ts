@@ -5,10 +5,6 @@ const projects = [
       "Full-stack web application designed to emulate the experience of an e-commerce platform.",
     tags: [
       {
-        name: "Full-Stack",
-        color: "golden-text-gradient",
-      },
-      {
         name: "react",
         color: "blue-text-gradient",
       },
@@ -52,12 +48,8 @@ const projects = [
   {
     name: "World-Info-Hub",
     description:
-      "Webiste that provides data about countries around the world using information pulled from various public APIs.",
+      "Full-Stack webiste made with Typescript that provides data about countries around the world using information pulled from various public APIs.",
     tags: [
-      {
-        name: "Full-Stack",
-        color: "golden-text-gradient",
-      },
       {
         name: "Typescript",
         color: "golden-text-gradient",
@@ -69,14 +61,6 @@ const projects = [
       {
         name: "express with node.js",
         color: "orange-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "violet-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "yellow-text-gradient",
       },
     ],
     image: "/world-info-hub.jpg",
