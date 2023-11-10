@@ -64,8 +64,8 @@ const projects = [
       },
     ],
     image: "/world-info-hub.jpg",
-    source_code_link: "https://worldinfohub.up.railway.app/",
-    live_link: "https://bigbobandy.github.io/World-Info-Hub/",
+    source_code_link: "https://github.com/BigBobandy/World-Info-Hub",
+    live_link: "https://worldinfohub.up.railway.app/",
   },
 ];
 
