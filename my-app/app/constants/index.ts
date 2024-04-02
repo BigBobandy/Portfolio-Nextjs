@@ -1,8 +1,8 @@
 const projects = [
   {
-    name: "Dirty Burger",
+    name: "E-Commerce Site",
     description:
-      "Full-stack web application designed to emulate the experience of an e-commerce platform.",
+      "Full-stack web application designed to emulate the experience of an e-commerce platform in the theme of a burger restaurant. Users can browse a menu, add items to a cart, and checkout with a payment system.",
     tags: [
       {
         name: "react",
@@ -21,30 +21,7 @@ const projects = [
     source_code_link: "https://github.com/BigBobandy/E-Commerce-Site",
     live_link: "https://www.dirtyburgerproject.com/",
   },
-  {
-    name: "Search & Sort Showdown",
-    description:
-      "Website that tests the binary and sequential search as well as the bubble and insertion sort algorithms on an array of random numbers.",
-    tags: [
-      {
-        name: "Javascript",
-        color: "golden-text-gradient",
-      },
-      {
-        name: "HTML",
-        color: "violet-text-gradient",
-      },
-      {
-        name: "CSS",
-        color: "yellow-text-gradient",
-      },
-    ],
-    image: "/searchAndSort.png",
-    source_code_link:
-      "https://github.com/BigBobandy/Search-Sort-Showdown-Comparing-Algorithms",
-    live_link:
-      "https://bigbobandy.github.io/Search-Sort-Showdown-Comparing-Algorithms/",
-  },
+
   {
     name: "World-Info-Hub",
     description:
@@ -66,6 +43,30 @@ const projects = [
     image: "/world-info-hub.jpg",
     source_code_link: "https://github.com/BigBobandy/World-Info-Hub",
     live_link: "https://worldinfohub.up.railway.app/",
+  },
+
+  {
+    name: "Geography Genius",
+    description:
+      "A Wordle-inspired geography game where players guess the country based on its outline. Each day presents a new challenge with hints and distance feedback to guide guesses. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "express with node.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "golden-text-gradient",
+      },
+    ],
+    image: "/Geography-Genius.png",
+    source_code_link: "https://github.com/BigBobandy/Fullstack-Geography-Game",
+    live_link: "https://geography-genius-production.up.railway.app/",
   },
 ];
 
