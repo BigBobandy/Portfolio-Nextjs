@@ -35,9 +35,7 @@ const Content = () => {
           <h1 className="flex text-xl lg:text-3xl font-bold lg:mb-3">
             Jackson Dykes
           </h1>
-          <h2 className="text-lg lg:text-xl font-bold">
-            Junior Full Stack Developer
-          </h2>
+          <h2 className="text-lg lg:text-xl font-bold">Full Stack Developer</h2>
         </div>
       </div>
       <div className="divider"></div>
