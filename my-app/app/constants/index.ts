@@ -1,5 +1,28 @@
 const projects = [
   {
+    name: "Geography Genius",
+    description:
+      "A Wordle-inspired geography game where players guess the country based on its outline. Each day presents a new challenge with hints and distance feedback to guide guesses. ",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+
+      {
+        name: "express with node.js",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "golden-text-gradient",
+      },
+    ],
+    image: "/Geography-Genius.png",
+    source_code_link: "https://github.com/BigBobandy/Fullstack-Geography-Game",
+    live_link: "https://geography-genius-production.up.railway.app/",
+  },
+  {
     name: "E-Commerce Site",
     description:
       "Full-stack web application designed to emulate the experience of an e-commerce platform in the theme of a burger restaurant. Users can browse a menu, add items to a cart, and checkout with a payment system.",
@@ -43,30 +66,6 @@ const projects = [
     image: "/world-info-hub.jpg",
     source_code_link: "https://github.com/BigBobandy/World-Info-Hub",
     live_link: "https://worldinfohub.up.railway.app/",
-  },
-
-  {
-    name: "Geography Genius",
-    description:
-      "A Wordle-inspired geography game where players guess the country based on its outline. Each day presents a new challenge with hints and distance feedback to guide guesses. ",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-
-      {
-        name: "express with node.js",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "golden-text-gradient",
-      },
-    ],
-    image: "/Geography-Genius.png",
-    source_code_link: "https://github.com/BigBobandy/Fullstack-Geography-Game",
-    live_link: "https://geography-genius-production.up.railway.app/",
   },
 ];
 
