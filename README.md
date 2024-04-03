@@ -4,7 +4,7 @@
 
 Welcome to the repository of my personal portfolio, which showcases my projects, work experience, and the tech stack I'm proficient in. This portfolio is built using Next.js, TypeScript, and TailwindCSS.
 
-![Jackson Dykes](./public/screenshot.jpg "Jackson Dykes")
+![Jackson Dykes](./my-app/public/screenshot.jpg "Jackson Dykes")
 
 ### Features
 
