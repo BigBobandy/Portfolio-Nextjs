@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Links = () => {
   return (
-    <div className="flex flex-col md:gap-1">
+    <div className="flex flex-col">
       <h2 className="text-2xl mb-4 font-medium text-orange-100">My Links</h2>
       <div className="flex flex-row lg:flex-col mb-10 lg:gap-1">
         <a
