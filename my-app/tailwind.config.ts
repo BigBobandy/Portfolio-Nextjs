@@ -20,7 +20,7 @@ const config: Config = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/herobg.jpg')",
+        "hero-pattern": "url('/herobg-landscape.jpg')",
       },
     },
   },
