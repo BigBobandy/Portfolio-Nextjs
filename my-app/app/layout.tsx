@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`hind.className bg-primary text-secondary w-full h-screen   bg-hero-pattern bg-cover bg-opacity-10 bg-no-repeat bg-center `}
+        className={`hind.className lg:bg-primary  text-secondary w-full h-screen  lg:bg-hero-pattern bg-cover lg:bg-opacity-10 lg:bg-no-repeat bg-center `}
       >
         {children}
       </body>
