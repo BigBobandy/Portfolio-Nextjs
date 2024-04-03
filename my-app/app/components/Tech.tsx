@@ -31,7 +31,7 @@ const Tech = () => {
   return (
     <div>
       <h2 className="text-2xl mb-2 font-medium text-orange-100">Tech Stack</h2>
-      <div className="flex justify-between">
+      <div className="flex gap-3">
         <Image src="/react.svg" width={75} height={75} alt="React.js logo" />
         <Image src="/node-js.svg" width={75} height={75} alt="Node.js logo" />
         <Image src="/mongodb.svg" width={150} height={75} alt="MongoDB logo" />
@@ -44,6 +44,20 @@ const Tech = () => {
           </li>
         ))}
       </ul>
+      <div className="  max-w-xs flex justify-center text-left mt-4 lg:mb-4">
+        <p className="text-orange-100 text-sm">
+          This portfolio project was made using the Next-Js framework with
+          TypeScript & Tailwindcss. You can find the source code{" "}
+          <a
+            href="https://github.com/BigBobandy/Portfolio-Nextjs"
+            target="_blank"
+            className="font-bold underline text-secondary"
+          >
+            here
+          </a>
+          .
+        </p>
+      </div>
     </div>
   );
 };
