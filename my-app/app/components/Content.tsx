@@ -9,7 +9,7 @@ const Content = () => {
   return (
     <div
       className="flex flex-col text-left px-7 ml-2 text-secondary bg-primary w-full lg:w-2/3  bg-opacity-[.85] 
-         rounded-xl overflow-y-scroll lg:overflow-auto min-h-screen"
+         rounded-xl overflow-y-scroll lg:overflow-auto h-1/2 min-h-fit"
     >
       <div className="flex justify-between lg:justify-start flex-row ">
         <div className="block rounded-full  lg:hidden">
@@ -40,8 +40,8 @@ const Content = () => {
       </div>
       <div className="divider"></div>
       <div>
-        <ul className="flex flex-col items-center justify-center lg:items-start">
-          <li className="text-2xl mb-2 font-medium text-orange-100">
+        <ul className="flex flex-col items-start justify-center lg:items-start">
+          <li className="flex justify-start text-2xl mb-2 font-medium text-orange-100">
             Projects
           </li>
           <li>
