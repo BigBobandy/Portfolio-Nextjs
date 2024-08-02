@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`hind.className debug-screens text-secondary w-full h-screen 
+        className={`hind.className  text-secondary w-full h-screen 
            `}
       >
         {children}
