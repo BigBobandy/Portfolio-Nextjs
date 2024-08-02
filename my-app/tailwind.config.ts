@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        primary: "#060501",
-        secondary: "#bd9864",
+        primary: "#060501", // Black
+        secondary: "#bd9864", // Brown
         tertiary: "#623f1f",
       },
       boxShadow: {
@@ -21,12 +21,33 @@ const config: Config = {
       },
       backgroundImage: {
         "hero-pattern": "url('/herobg-landscape.jpg')",
+        "metallic-sheen":
+          "linear-gradient(180deg, #060501 10%, #42382e 25%, #bd9864 50%, #42382e 75%, #060501 90%)",
       },
     },
   },
-  plugins: [require("daisyui")],
+  plugins: [
+    require("tailwindcss-debug-screens"),
+    require("tailwind-heropatterns")({
+      variants: [],
+
+      patterns: ["polka-dots", "signal"],
+
+      colors: {
+        default: "#9C92AC",
+        gold: "#b8860b",
+      },
+
+      opacity: {
+        default: "0.4",
+        100: "1.0",
+      },
+    }),
+    require("daisyui"),
+  ],
   daisyui: {
     themes: ["luxury"],
   },
 };
+
 export default config;
