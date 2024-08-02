@@ -1,5 +1,27 @@
 const projects = [
   {
+    name: "Nail Envy Website",
+    description:
+      "A responsive and user-friendly website developed for Nail Envy, a nail salon located in Fort Oglethorpe, GA. The site features essential information about the salon, showcases services, displays customer reviews, and includes easy contact options.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: "/nailenvy.jpg",
+    source_code_link: "https://github.com/BigBobandy/nailenvy",
+    live_link: "https://www.nailenvyforto.com/",
+  },
+  {
     name: "Geography Genius",
     description:
       "A Wordle-inspired geography game where players guess the country based on its outline. Each day presents a new challenge with hints and distance feedback to guide guesses. ",
