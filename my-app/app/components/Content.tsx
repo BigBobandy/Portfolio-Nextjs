@@ -8,8 +8,8 @@ import Work from "./Work";
 const Content = () => {
   return (
     <div
-      className="flex flex-col text-left px-7 ml-2 text-secondary bg-primary w-full lg:w-2/3  bg-opacity-[.85] 
-         rounded-xl overflow-y-scroll lg:overflow-auto h-1/2 min-h-fit"
+      className="flex flex-col bg-opacity-60 bg-primary text-left px-7 ml-2 text-secondary  w-full lg:w-2/3 
+         rounded-xl overflow-y-scroll lg:overflow-auto h-full "
     >
       <div className="flex justify-between lg:justify-start flex-row ">
         <div className="block rounded-full  lg:hidden">
@@ -21,13 +21,13 @@ const Content = () => {
             className="rounded-xl"
           />
         </div>
-        <div className=" lg:flex lg:items-center mr-4 ">
+        <div className=" lg:flex lg:items-center ">
           <Image
             src="/logo.png"
             width={80}
             height={80}
             alt="initials logo"
-            className="rounded-xl"
+            className="rounded-full"
           />
         </div>
 
@@ -35,13 +35,15 @@ const Content = () => {
           <h1 className="flex text-xl lg:text-3xl font-bold lg:mb-3">
             Jackson Dykes
           </h1>
-          <h2 className="text-lg lg:text-xl font-bold">Full Stack Developer</h2>
+          <h2 className="text-lg lg:text-xl font-bold no-wrap">
+            Freelance Web Developer
+          </h2>
         </div>
       </div>
       <div className="divider"></div>
       <div>
         <ul className="flex flex-col items-start justify-center lg:items-start">
-          <li className="flex justify-start text-2xl mb-2 font-medium text-orange-100">
+          <li className="flex justify-center text-2xl mb-2 font-medium text-orange-100">
             Projects
           </li>
           <li>
