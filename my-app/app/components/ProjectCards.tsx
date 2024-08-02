@@ -3,11 +3,11 @@ import { projects } from "../constants";
 
 const ProjectCards = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+    <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
       {projects.map((project, index) => (
         <div
           key={index}
-          className="card w-96 bg-base-100 shadow-xl image-full h-full"
+          className="card w-96 lg:w-full bg-base-100 shadow-xl image-full h-full"
         >
           <figure>
             <Image
