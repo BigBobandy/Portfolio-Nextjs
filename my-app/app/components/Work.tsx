@@ -7,21 +7,23 @@ const Work = () => {
         Work Experience
       </h2>
       <p className="text-md font-light text-white md:mb-4">
-        I am a Freelance Web Developer with experience in designing and
-        developing responsive, user-friendly websites for various clients. My
-        recent work includes the Nail Envy website, where I created a modern and
-        visually appealing site to showcase the salon&apos;s services, customer
-        reviews, and more.
+        I worked as a Freelance Web Developer from June 2024 to January 2025,
+        where I designed, developed, and maintained a responsive and
+        user-friendly website for Nail Envy. This project involved creating a
+        modern and visually appealing platform to showcase the salon's services,
+        customer reviews, and more, as well as providing ongoing updates and
+        maintenance to ensure its functionality and relevance.
       </p>
       <p className="text-md font-light text-white md:mb-4">
-        I specialize in both front-end and back-end development, using
-        technologies like React.js, Tailwind CSS, and Node.js to deliver
-        tailored solutions that meet client needs.
+        During my time as a freelancer, I specialized in both front-end and
+        back-end development, leveraging technologies like React.js, Tailwind
+        CSS, and Node.js.
       </p>
-      <p className="text-md font-light text-white md:mt-6">
-        While I am actively seeking new clients to collaborate with, I am also
-        pursuing a long-term role as a Full Stack Developer. My ambition is to
-        continue expanding my expertise and contribute to innovative projects.
+      <p className="text-md font-light text-white ">
+        I am now pursuing my education full-time toward a degree in Software
+        Engineering at Kennesaw State University. While focusing on my studies,
+        I continue working on personal coding projects to enhance my skills and
+        stay current with industry trends.
       </p>
     </div>
   );
