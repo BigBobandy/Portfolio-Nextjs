@@ -14,7 +14,7 @@ const Education = () => {
               src="/gntc.png"
               width={150}
               height={150}
-              alt="GNTC"
+              alt="Georgia Northwestern Technical College Logo"
               className="rounded-lg md:w-[75px] md:h-[75px] lg:my-4"
             />
           </span>
@@ -26,15 +26,31 @@ const Education = () => {
           </p>
           <span className="text-lg">Major: </span>
           <p className="text-orange-100 text-md">Website Design/Development</p>
-          <span className="text-lg">Minor: </span>
-          <p className="text-orange-100 text-md">IT Support Specialist</p>
+          <i className="text-md text-white">Graduated in August 2024</i>
         </li>
-        <li className="mb-2 ">
-          <span className="text-lg">Relevant Coursework: </span>
-          <p className="text-orange-100 text-md ">
-            Information Security Fundamentals, IT Analysis Design & Project
-            Management, Hardware Installation & Maintenance
-          </p>
+        <li>
+          <h3 className="text-xl mb-2 font-semibold md:mb-0 md:mr-4">
+            Kennesaw State University
+          </h3>
+          <span>
+            <Image
+              src="/ksuLogo.png"
+              width={150}
+              height={150}
+              alt="Kennesaw State University Logo"
+              className="md:w-[75px] md:h-[75px] lg:my-4"
+            />
+          </span>
+          <li className="mb-2">
+            <span className="text-lg mb-2">Degree: </span>
+            <p className="text-orange-100 text-md">Bachelors of Science</p>
+            <span className="text-lg">Major: </span>
+            <p className="text-orange-100 text-md">Software Engineering</p>
+            <i className="text-md text-white">
+              Enrolled as of January 2025 <br />
+              Expected to graduate in 2028
+            </i>
+          </li>
         </li>
       </ul>
     </div>
